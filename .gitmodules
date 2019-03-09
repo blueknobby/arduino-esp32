@@ -27,7 +27,7 @@
 	url = https://github.com/sparkfun/SparkFun_SX1509_Arduino_Library.git
 [submodule "libraries/Time"]
 	path = libraries/Time
-	url = https://github.com/PaulStoffregen/Time.git
+	url = https://github.com/blueknobby/Time.git
 [submodule "libraries/WiThrottle"]
 	path = libraries/WiThrottle
 	url = git@github.com:davidzuhn/WiThrottle.git
