@@ -289,6 +289,11 @@ config ARDUINO_SELECTIVE_Adafruit_LIS3DH
     select ARDUINO_SELECTIVE_Wire
     default y
 
+config ARDUINO_SELECTIVE_Adafruit_DRV2605_Library
+    bool "Enable Adafruit DRV2605"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    default y
+
 config ARDUINO_SELECTIVE_Chrono
     bool "Enable Chrono"
     depends on ARDUINO_SELECTIVE_COMPILATION
