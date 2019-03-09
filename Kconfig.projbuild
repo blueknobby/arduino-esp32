@@ -263,5 +263,51 @@ config ARDUINO_SELECTIVE_Wire
     depends on ARDUINO_SELECTIVE_COMPILATION
     default y
 
+# now for the local modifications
+
+config ARDUINO_SELECTIVE_Adafruit_GFX_Library
+    bool "Enable Adafruit GFX"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    default y
+
+config ARDUINO_SELECTIVE_Adafruit_LED_Backpack
+    bool "Enable Adafruit LED Backpack"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    select ARDUINO_SELECTIVE_Adafruit_GFX_Library
+    select ARDUINO_SELECTIVE_Wire
+    default y
+
+config ARDUINO_SELECTIVE_Adafruit_Sensor
+    bool "Enable Adafruit Sensor"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    default y
+
+config ARDUINO_SELECTIVE_Adafruit_LIS3DH
+    bool "Enable Adafruit LIS3DH"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    select ARDUINO_SELECTIVE_Adafruit_Sensor
+    select ARDUINO_SELECTIVE_Wire
+    default y
+
+config ARDUINO_SELECTIVE_Chrono
+    bool "Enable Chrono"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    default y
+
+config ARDUINO_SELECTIVE_Time
+    bool "Enable Time"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    default y
+
+config ARDUINO_SELECTIVE_SX1509_IO_Expander
+    bool "Enable Sparkfun SX1509 IO Expander"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    select ARDUINO_SELECTIVE_Wire
+    default y
+
+config ARDUINO_SELECTIVE_WiThrottle
+    bool "Enable WiThrottle"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    default y
 
 endmenu
