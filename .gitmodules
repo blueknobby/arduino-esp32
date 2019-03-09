@@ -15,7 +15,7 @@
 	url = https://github.com/adafruit/Adafruit_LED_Backpack.git
 [submodule "libraries/Adafruit_LIS3DH"]
 	path = libraries/Adafruit_LIS3DH
-	url = https://github.com/adafruit/Adafruit_LIS3DH.git
+	url = https://github.com/blueknobby/Adafruit_LIS3DH.git
 [submodule "libraries/Adafruit_Sensor"]
 	path = libraries/Adafruit_Sensor
 	url = https://github.com/adafruit/Adafruit_Sensor.git
