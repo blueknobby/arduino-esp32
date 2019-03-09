@@ -6,7 +6,7 @@
 	url = https://github.com/VSChina/ESP32_AzureIoT_Arduino
 [submodule "libraries/Adafruit_DRV2605_Library"]
 	path = libraries/Adafruit_DRV2605_Library
-	url = https://github.com/adafruit/Adafruit_DRV2605_Library.git
+	url = https://github.com/blueknobby/Adafruit_DRV2605_Library.git
 [submodule "libraries/Adafruit_GFX_Library"]
 	path = libraries/Adafruit_GFX_Library
 	url = https://github.com/adafruit/Adafruit-GFX-Library.git
